@@ -39,8 +39,9 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
 
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        next_calculation = input("Let's do next calculation? (yes/no): ").capitalize()
+        print(next_calculation)
+        if next_calculation == "No":
             break
 
     else:
